@@ -1,26 +1,3 @@
-{
-  "$schema": "http://json-schema.org/draft-04/schema",
-  "title" : "MIACME person schema",
-  "version" : "0.2",
-  "description" : "JSON-schema representing a person in MIACME",
-  "type" : "object",
-  "properties" : {
-    "@id": { "type": "string", "format": "uri" },
-    "lastName" : { "type" : "string"},
-    "firstName" : { "type" : "string"},
-    "midInitials" : { "type" : "string" },
-    "email" : { "type" : "string", "format" : "email"},
-    "phone" : { "type": "string"},
-    "fax" : { "type" : "string" },
-    "address" : { "type" : "string" },
-    "affiliation" : { "type" : "string" },
-
-    "affiliation" : {
-      "type": "array",
-      "items": {
-        "$ref": "comment_schema.json#"
-      }
-    }
-  },
-  "additionalProperties": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b6aca5a226e6b6699d36654c4773d998ea81a5765535f5c8f4a2d65df484d23
+size 753
